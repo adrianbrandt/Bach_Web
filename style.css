@@ -17,8 +17,7 @@
 
 body{
     width: 100%;
-   /* background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(EauDp1hUcAAE-bK.jpg);*/
-    background-image:linear-gradient(rgba(0, 16, 46, 0.550),rgba(0, 16, 46, 0.65)) , url("/node_modules/img/bakgrunn_1.jpg");
+    background-image: linear-gradient(rgba(0, 16, 46, 0.550),rgba(0, 16, 46, 0.65)) , url("/node_modules/img/bakgrunn_1.jpg");
     background-position: center;
     background-size: cover;
 }
