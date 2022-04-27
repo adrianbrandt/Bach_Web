@@ -2,8 +2,8 @@
     margin-top: 10px;
 }
 
-.profile_logo{
-    padding-bottom: 0.5rem;
+.profile{
+    margin-left: 20vw;
 }
 
 .navbar-brand{
@@ -13,6 +13,7 @@
 .searcher{
     margin-left: 2rem;
     margin-right: 2rem;
+    border-radius: 20px;
 }
 
 body{
@@ -24,6 +25,7 @@ body{
 
 .second_nav{
     max-width: 80vw;
+    margin-bottom: 1.5rem;
 }
 
 .navbar2{
@@ -34,18 +36,33 @@ body{
     text-align: center;
 }
 
-ul {
+.second_nav ul {
+    justify-content: space-evenly ;
+    width: 100%;
     list-style-type: none;
     margin: 20px 0px;
     padding: 0;
 }
 li {
     display: inline;
-    padding: 5vh;
-    
+    border-right: 1px solid grey;
+    padding: 20px 4rem;
+}
+ li:last-child {
+    border-right: none;
+  }
+
+
+.container-box {
+    background-color: white;
+    height: 40vh;
+    width: 70vw;
+    margin:0px 20px;
 }
 
-
-.sharenav {
-
+.flex-container {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row ;
+    width: 100%;
 }
