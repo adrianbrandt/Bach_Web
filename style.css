@@ -15,18 +15,6 @@
     padding-left: 2rem;
 }
 
-.colkuk {
-    border-right: none;
-    text-decoration: none;
-    margin-right:-30px;
-    font-family: Arial, "Helvetica Neue", Helvetica,sans-serif;
-    font-size:44px;
-}
-
-.colkuk2{
-    border-right: 1px solid grey;
-}
-
 
 .row{
     padding-left:0;
@@ -52,15 +40,25 @@
 }
 
 body{
+    color: #00102e;
     width: 100%;
     background-image: linear-gradient(rgba(0, 16, 46, 0.550),rgba(0, 16, 46, 0.65)) , url("img/bakgrunn_1.jpg");
     background-position: center;
     background-size: cover;
+    overflow: overlay;
+
 }
 
+li{
+    list-style: none;
+    padding: 2vh 0;
+}
 
+.second_nav {
+    max-width: 80vw;
+}
 
-li {
+.second_nav li {
     display: inline;
     padding: 20px 4rem;
     border-right: 1px solid grey;
@@ -97,8 +95,10 @@ li {
 .flex-container {
     display: flex;
     flex-direction: row;
-    margin: auto;
+    margin: 1rem auto;
     justify-content: center;
+    max-width: 80vw;
+    max-height: 40vh;
     
 }
 
@@ -143,9 +143,56 @@ display: flex;
 justify-content: space-evenly;
 align-items: center;
 width: 80vw;
+overflow: hidden;
+
 
 }
 
 .second_nav li:hover {
 text-decoration: underline #00102e;
+}
+
+.checkers{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: auto;
+}
+
+.oppgaver{
+    margin: 1rem 0 1rem 0.9rem;
+}
+
+.important{
+}
+
+.important ::after{
+    background-color: lightsalmon;
+
+}
+
+.tester1{
+    max-height: 40vh;
+    overflow-y: scroll;
+    overflow: overlay;
+}
+
+
+#scrollbar::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: transparent;
+}
+
+#scrollbar::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: transparent;
+}
+
+#scrollbar::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: gainsboro;
 }
