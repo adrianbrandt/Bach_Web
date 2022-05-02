@@ -15,6 +15,9 @@
     padding-left: 2rem;
 }
 
+.sharepoint:hover{
+    color: white;
+}
 
 .row{
     padding-left:0;
@@ -24,8 +27,20 @@
     margin-top: 10px;
 }
 
+.sharenav ul{
+    color: white;
+    max-width:80vw;
+    margin:auto;
+    padding: 0 2rem 0 2rem;
+ 
+  }
+
 .profile{
-    margin-left: 23vw;
+    margin-left: 20vw;
+}
+
+.sharenav{
+
 }
 
 .profile img{
@@ -73,9 +88,18 @@ li{
 .container-box {
     background-color: white;
     height: 40vh;
-    width: 39vw;
+    width: 38vw;
     margin: 0.1vw 1vw;
     border-radius: 10px;
+    max-width: 38vw;
+}
+
+.container-sox {
+    background-color: white;
+    height: 40vh;
+    border-radius: 10px;
+    max-width: 80vw;
+    margin: auto;
 }
 
 
@@ -87,9 +111,10 @@ li{
 }
 
  .content-image {
-    background-image: url("img/bakgrunn5.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.45)) , url("img/bakgrunn5.jpg");
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .flex-container {
@@ -104,12 +129,6 @@ li{
 
 .second_row{
 margin-top:15px;
-}
-
-.sharenav ul{
-  color: white;
-  max-width:80vw;
-  margin:auto;
 }
 
 .navbar-brand{
@@ -151,6 +170,8 @@ overflow: hidden;
 .second_nav li:hover {
 text-decoration: underline #00102e;
 }
+
+
 
 .checkers{
     width: 1.5rem;
@@ -196,3 +217,169 @@ text-decoration: underline #00102e;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color: gainsboro;
 }
+
+.center-content{
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+
+.center-content h1{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.center-content h5{
+    margin-bottom: 5rem;
+}
+
+.round-btn{
+    color: #00102e;
+    margin: 0 auto;
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.round-btn:hover{
+    background-color: rgba(255, 208, 10, 1);
+    box-shadow: 0px 15px 20px rgba(255, 208, 10, 0.4);
+    color: #00102e;
+    transform: translateY(-7px);
+}
+
+.round-btn:active{
+    transform: translateY(-1px);
+}
+
+.btn{
+    background-color: rgba(255, 208, 10, 1);
+    margin: 1rem 0 1rem 0.9rem;
+    padding: 0.5em 1.5em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    border: none;
+    border-radius: 45px;
+}
+
+.btn:hover{
+    text-decoration: underline #00102e;
+}
+
+.dokument-box{
+    width: 4rem;
+    height: 4rem;
+    margin: 0.5rem 2rem;
+}
+
+.dokument-box p{
+    font-size: 0.8em;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    max-width: 100%;
+   }
+   
+   .input {
+    width: 20vw;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #0d0c22;
+    transition: .3s ease;
+   }
+   
+   .input::placeholder {
+    color: #9e9ea7;
+   }
+   
+   .input:focus, input:hover {
+    outline: none;
+    border-color: rgba(255, 208, 10, 0.5);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+   }
+   
+   .icon {
+    position: absolute;
+    left: 1rem;
+    fill: #9e9ea7;
+    width: 1rem;
+    height: 1rem;
+   }
+
+   .projects{
+       justify-content: center;
+   }
+
+   #clock{
+    font-family: Arial, "Helvetica Neue", Helvetica,sans-serif;
+    font-size:36px;
+    text-align: center;
+   }
+
+    .stamps {
+    padding: 1.3em 3em;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+   }
+   
+   .stamps:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+   }
+   
+   .stamps:active {
+    transform: translateY(-1px);
+   }

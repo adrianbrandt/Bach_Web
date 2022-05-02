@@ -1,16 +1,32 @@
-function removeDummy() {
-    var elem = document.getElementById('rems');
-    elem.style.visibility = hidden;
-    return false;
-}
+function remover(){
+    const btn = document.getElementById("scrollbar");
 
-const btn = document.getElementById('rems');
+    btn.remove();
+};
 
-btn.addEventListener('click', () => {
-  // 👇️ hide button
-  btn.style.display = 'none';
+function startTime() {
+    const today = new Date();
+    let h = today.getHours();
+    let m = today.getMinutes();
+    let s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('clock').innerHTML =  h + ":" + m + ":" + s;
+    setTimeout(startTime, 1000);
+  };
+  
+  function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+  };
 
-  // 👇️ show div
-  const box = document.getElementById('rems');
-  box.style.display = 'block';
-});
+  function timestamp() {
+    const today = new Date();
+    let h = today.getHours();
+    let m = today.getMinutes();
+    let s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('counter-display').innerHTML =  h + ":" + m + ":" + s;
+    setTimeout(startTime, 1000);
+  };
