@@ -12,8 +12,14 @@
     font-family: Arial, "Helvetica Neue", Helvetica,sans-serif;
     font-size:24px;
     margin-top: 1rem;
-    padding-left: 2rem;
+    padding-left: 8vw;
 }
+
+@media only screen and (max-width: 1500px) {
+    .sharepoint {
+      display:none;
+    }
+  }
 
 .sharepoint:hover{
     color: white;
@@ -31,17 +37,19 @@
     color: white;
     max-width:80vw;
     margin:auto;
-    padding: 0 2rem 0 2rem;
+    padding: 0;
  
   }
 
 .profile{
-    margin-left: 20vw;
+    margin-left: 13vw;
 }
 
-.sharenav{
-
+.navbar2{
+    max-width: 80vw;
 }
+
+/*  edit over here   */ 
 
 .profile img{
     border-radius: 50%;
@@ -69,29 +77,23 @@ li{
     padding: 2vh 0;
 }
 
-.second_nav {
-    max-width: 80vw;
-}
-
-.second_nav li {
-    display: inline;
-    padding: 20px 4rem;
-    border-right: 1px solid grey;
-}
 
 
- li:last-child {
+
+ .second_nav li:last-child {
     border-right: none;
   }
 
 
 .container-box {
+    display: block;
     background-color: white;
     height: 40vh;
     width: 38vw;
     margin: 0.1vw 1vw;
     border-radius: 10px;
     max-width: 38vw;
+    overflow: hidden;
 }
 
 .container-sox {
@@ -115,6 +117,7 @@ li{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+
 }
 
 .flex-container {
@@ -135,11 +138,7 @@ margin-top:15px;
 margin-top:1rem;
 }
 
-.second_nav{
-max-width: 80vw;
-width: 80vw;
-margin-bottom: 1.5rem;
-}
+
 
 .navbar2{
 border-radius: 10px;
@@ -149,22 +148,37 @@ border-radius: 10px;
 text-align: center;
 }
 
+.second_nav li {
+    display: inline;
+    padding: 20px 3.3vw;
+    border-right: 1px solid grey;
+
+
+}
+
 .second_nav ul {
 justify-content: space-evenly ;
 width: 100%;
 list-style-type: none;
-margin: 20px 0px;
+margin: 2vh 0px;
 padding: 0;
 }
+
 
 .second_nav{
 display: flex;
 justify-content: space-evenly;
 align-items: center;
+max-width: 80vw;
 width: 80vw;
-overflow: hidden;
+white-space: nowrap;
+margin-bottom: 1.5rem;
 
 
+}
+
+.second_nav a{
+    font-size: 1vw;
 }
 
 .second_nav li:hover {
@@ -183,13 +197,7 @@ text-decoration: underline #00102e;
     margin: 1rem 0 1rem 0.9rem;
 }
 
-.important{
-}
 
-.important ::after{
-    background-color: lightsalmon;
-
-}
 
 .tester1{
     max-height: 40vh;
@@ -223,10 +231,11 @@ text-decoration: underline #00102e;
     text-align: center;
     color: white;
     margin: 0 auto;
+    overflow: auto;
 }
 
 .center-content h1{
-    margin-top: 3rem;
+    margin-top: 2vh;
     margin-bottom: 1rem;
 }
 
@@ -316,8 +325,8 @@ text-decoration: underline #00102e;
     width: 20vw;
     height: 40px;
     line-height: 28px;
-    padding: 0 1rem;
-    padding-left: 2.5rem;
+    padding: 0 4vw;
+    padding-left: 2.5vw;
     border: 2px solid transparent;
     border-radius: 8px;
     outline: none;
@@ -347,6 +356,7 @@ text-decoration: underline #00102e;
 
    .projects{
        justify-content: center;
+       margin-bottom: 2vh;
    }
 
    #clock{
