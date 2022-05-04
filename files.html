@@ -49,13 +49,14 @@
         </button>
       <div class="navbartext collapse navbar-collapse">
         <ul>
-          <li><a class="navbar-brand" href="index.html">Hjem</a></li>
-          <li><a class="navbar-brand activated" href="timeliste.html">Time Registrering</a></li>
-          <li><a class="navbar-brand " href="instrukser.html">Instrukser</a></li>
-            <li><a class="navbar-brand activated" href="files.html">Resurser</a></li>
-              <li><a class="navbar-brand" href="Nyansatt.html">Nyansatt</a></li>
-                <li><a class="navbar-brand" href="storage.html">Lager Status</a></li>
-      </ul>
+            <ul>
+                <li><a class="navbar-brand" href="index.html">Hjem</a></li>
+                <li><a class="navbar-brand" href="timeliste.html">Time Registrering</a></li>
+                <li><a class="navbar-brand " href="instrukser.html">Instrukser</a></li>
+                  <li><a class="navbar-brand activated" href="files.html">Resurser</a></li>
+                    <li><a class="navbar-brand" href="Nyansatt.html">Nyansatt</a></li>
+                      <li><a class="navbar-brand" href="storage.html">Lager Status</a></li>
+            </ul>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       </div>
     </div>
@@ -63,28 +64,11 @@
   </div>
   
 </header>
-<body onload="startTime()">
+<body>
 
     <div class="container-fluid">
         <div class="container-sox">
-            <h2 id="clock">{clock}</h2>
-            <div class="container">
-                <div class="row">
-                    <button class="col stamps" id="sin" onclick="timestamp()"> Stamp inn
-                        <span></span>
-                      </button>
-                      
-                      <button class="col stamps" id="sout" onclick="stampout()"> Stamp out
-                        <span></span>
-                      </button>
-
-                      <button class="col stamps" id="scim" onclick="stamped()"> Submit work time
-                        <span></span>
-                      </button>
-
-                      <h1 id="counter-display">(..)</h1>
-                </div>
-              </div>
+            <iframe src="https://drive.google.com/embeddedfolderview?id=1rGkPaIksYJE0kZ4Ck3lkiweXPVoSMjkW#list" style="width:100%; height:100%; border:0;"></iframe>
 
         </div>        
         </div>

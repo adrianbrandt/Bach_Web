@@ -407,3 +407,13 @@ text-decoration: underline #00102e;
 #scim{
     display: none;
 }
+
+.activated{
+    text-decoration: underline;
+}
+
+.soon{
+    text-align: center;
+    margin-top: 20vh;
+    color:white;
+}
