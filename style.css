@@ -179,13 +179,13 @@ padding: 0;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
-max-width: 80vw;
-width: 80vw;
+max-width: 82vw;
+width: 82vw;
 white-space: nowrap;
 margin-bottom: 1.5rem;
-
-
 }
+
+
 
 .second_nav a{
     font-size: 1vw;
@@ -291,7 +291,7 @@ text-decoration: underline #00102e;
     font-weight: 500;
     border: none;
     border-radius: 45px;
-}
+    margin-top: 10%;}
 
 .btn:hover{
     text-decoration: underline #00102e;
@@ -300,7 +300,8 @@ text-decoration: underline #00102e;
 .dokument-box{
     width: 4rem;
     height: 4rem;
-    margin: 0.5rem 2rem;
+    margin: 0.5rem 3rem;
+    padding: 0;
 }
 
 .dokument-box p{
@@ -312,6 +313,7 @@ text-decoration: underline #00102e;
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
+    margin: 1rem 0 1rem 0;
     
 }
 
